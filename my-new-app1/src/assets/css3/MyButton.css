@@ -1,0 +1,13 @@
+.s1{
+    background: red;
+}
+.s2{
+    border: 1px slategray solid;
+}
+
+.button--primary{
+    background: blue;
+}
+.button--warning{
+    background: bisque;
+}

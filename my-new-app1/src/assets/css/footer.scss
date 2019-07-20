@@ -1,0 +1,41 @@
+.footer{
+  display: flex;
+  text-align: center;
+  position: fixed;
+  width:100%;
+  z-index:999;
+  height:1.2rem;
+  background: #fff;
+  border-top: 0.01rem solid #efeff4;
+  bottom: 0;
+  .footer-home{
+  flex: 1;
+    .h-icon{width:0.5rem;height:0.5rem;display: block;
+      margin: 0.1rem auto;
+      background-image: url("../data/img/home1-1.png")}
+
+  }
+  .footer-list{
+    flex:1;
+    .l-icon{width:0.5rem;height:0.5rem;display: block;
+      margin: 0.1rem auto;
+    background-image: url("../data/img/list2 (1).png")}
+
+  }
+
+  .footer-buy{
+    flex: 1;
+    .b-icon{width:0.5rem;height:0.5rem;display: block;
+      margin: 0.1rem auto;
+      background-image: url("../data/img/buy2.png")}
+  }
+  .footer-my{
+    flex: 1;
+    .m-icon{width:0.5rem;height:0.5rem;display: block;
+      margin: 0.1rem auto;
+      background-image: url("../data/img/my1.png")}
+  }
+}
+.footer-null{
+  height:1.2rem;
+}

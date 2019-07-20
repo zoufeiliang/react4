@@ -1,0 +1,33 @@
+.header{
+    position: fixed;
+    width:100%;
+    z-index:999;
+    height:1.2rem;
+    background: #efeff4;
+    display: flex;
+
+  .left{
+    width:0.8rem;height:0.8rem;
+    margin:0.2rem;
+    background-image:url("../data/img/saoma (1).png");
+
+  }
+  .center{
+    width:8rem;
+  }
+  .right{
+    display: flex;
+
+    .more{
+      width:0.8rem;height:0.8rem;
+      margin:0.2rem;
+      background-image:url("../data/img/play.png");
+
+    }
+
+  }
+
+}
+.null{
+  height:1.2rem;
+}
